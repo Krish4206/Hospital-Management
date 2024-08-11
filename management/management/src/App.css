@@ -1,0 +1,10 @@
+.App main{
+  display: flex;
+  height: calc(100vh - 60px);
+}
+.loadsection{
+  padding: 25px;
+  padding-bottom: 0;
+  width: 100%;
+  overflow-y: auto;
+}

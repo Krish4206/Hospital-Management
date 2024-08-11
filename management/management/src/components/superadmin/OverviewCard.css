@@ -1,0 +1,27 @@
+.overview-card {
+    display: flex;
+    padding: 15px;
+    width: 224px;
+    gap: 20px;
+    border: 1px solid lightgray;
+  }
+  
+  
+  .arrow-icon {
+    font-size: 30px;
+    color: #009688;
+    transform: rotate(45deg);
+  }
+  
+  .overview-content h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .overview-content p {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }

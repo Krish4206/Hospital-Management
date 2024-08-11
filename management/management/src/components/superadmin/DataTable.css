@@ -1,0 +1,26 @@
+.pagination{
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    gap: 25px;
+}
+.pagination-controls{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.pagination-controls button{
+    border: none;
+    background-color: #eaeaeaba;
+    padding: 5px 12px;
+}
+.orglist-table th{
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #d3d3d352;
+}
+.orglist-table td{
+    vertical-align: middle;
+    padding-left: 20px;
+}
+

@@ -1,0 +1,52 @@
+.overview{
+    margin-top: 20px;
+}
+.overview-main{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.overview-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.orglist-header > div:first-child{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.orglist-header > div:last-child{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+}
+.orglist-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* footer style start*/
+.dashboard .footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    /* font-size: 14px; */
+    color: #777;
+    list-style-type: none;
+    margin: 0;
+}
+.dashboard .footer li a{
+    margin-right : 10px;
+    color : #777;
+}
+.dashboard .footer li:last-child a{
+    text-decoration: none;
+
+}
+/* footer style end */
+
+

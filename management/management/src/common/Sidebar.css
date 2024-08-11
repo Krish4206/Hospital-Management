@@ -1,0 +1,40 @@
+.sidebar{
+    height: 100%;
+    padding: 0;
+    border-right: 1px solid lightgray;
+}
+.sidebar .logoWrapper{
+    min-height: 60px;
+    padding: 15px 25px;
+    border-bottom: 1px solid lightgray;
+}
+.sidebar .logo{
+    text-decoration: none;
+}
+.sidebar .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.sidebar .nav-pills{
+    padding: 10px 25px;
+    text-align: left;
+}
+.sidebar .nav-pills .nav-item:has(.nav-link.active)::before{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 3px;
+    background-color: #1d9cb5;
+    left: 0;
+}
+.sidebar .nav-pills .nav-item .nav-link{
+    color: black;
+}
+.sidebar .nav-pills .nav-item .nav-link i{
+    margin-right: 10px;
+}
+.sidebar .nav-pills .nav-item .nav-link.active{
+    background-color: #1d9cb5;
+    color: white;
+}
